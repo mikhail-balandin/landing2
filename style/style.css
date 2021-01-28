@@ -126,7 +126,7 @@ a {
   width: 282px;
   height: 46px;
   font-size: 13px;
-  color: #c2c2c2;
+  color: #000000;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   padding: 0 42px 0;
@@ -134,6 +134,9 @@ a {
   border: none;
   border-radius: 3px;
   background: #ffffff;
+}
+.callback::placeholder{
+  color: #c2c2c2;
 }
 
 .callback:not(:first-child) {
